@@ -1,7 +1,7 @@
-# Week 2 Assignment 3
+# Week 2 Assignment 4
 
-In this assignment we will play darts in the cartesian plane. We will randomly draw the x and y coordinates of a point in the square of side 2 centered on the origin, i.e. e will use the uniform() function from the random submodule of numpy to draw two random numbers in the \[-1,1) interval. If the point falls within the unit circle centered on the origin (i.e. the circle for which <img src="https://latex.codecogs.com/gif.latex?x^2&plus;y^2\le1" title="x^2+y^2\le1" />) we win. 
+In this assignment we will start playing with loops. We will exploit the code written in the previous assignment (the point inside the unit circle) to estimate the value of pi. If you repeat the process of Assignment 3 sevearl times, you would expect the fraction of points that fall in the unit circle to be proportional to the ratio of the areas of the unit circle and the embedding square.
 
-TASK: Write a program that draws the coordinates of a random point in the xy plane and prints out "You win :)" (or "You loose :(") if the point is (or is not) within the unit circle. 
+TASK: Modify the program of the previous assignment by introducing a loop to repeat the drawing of a random point n times (n can be hardcoded or provided by the user in input). Keep track of the number of points that fall within the unit circle. At the end of the loop, print the estimate of pi using the ratio between the points in the circle and n.
 
-EXPECTED OUTCOME: Should you win or loose more often? Can you guess what fraction of times you win?
+EXPECTED OUTCOME: for n=1000000 you should get an estimate of pi of approximately 3.14. 
