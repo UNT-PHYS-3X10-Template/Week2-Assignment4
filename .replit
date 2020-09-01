@@ -1,2 +1,2 @@
 language = "bash"
-run = "python test_log.py"
+run = "python pi_random.py"
