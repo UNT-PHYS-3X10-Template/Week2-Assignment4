@@ -1,4 +1,4 @@
-# Week 2 Assignment 4
+# Loops and conditionals: Monte Carlo calculation of pi
 
 In this assignment we will start playing with loops. We will exploit the code written in the previous assignment (the point inside the unit circle) to estimate the value of pi. If you repeat the process of Assignment 3 sevearl times, you would expect the fraction of points that fall in the unit circle to be proportional to the ratio of the areas of the unit circle and the embedding square.
 
